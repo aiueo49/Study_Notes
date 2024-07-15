@@ -9,8 +9,8 @@ export const App = () => {
   return (
     <>
       <h1>Hello World</h1>
-      <ColoredMessage color="blue" message="お元気ですか？" />
-      <ColoredMessage color="pink" message="元気です！" />
+      <ColoredMessage color="blue">"お元気ですか？"</ColoredMessage>
+      <ColoredMessage color="pink">"元気です！"</ColoredMessage>
       <button onClick={onClickButton}>ボタン</button>
     </>
   );
